@@ -1,0 +1,19 @@
+{
+  "name": "rubiks",
+  "version": "1.0.0",
+  "description": "A bare-bones model of a Rubik's Cube, including a rudimentary solver",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Justin Wayne",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "browserify-middleware": "^7.0.0",
+    "express": "^4.13.4",
+    "express-partials": "^0.3.0",
+    "path": "^0.12.7"
+  }
+}
