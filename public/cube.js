@@ -119,7 +119,7 @@ var clearSides = function(){
 
 var addSquare = function(index){
 	var $square = $('<div class="square" id='+index.toString()+'></div>');
-	//use string values in cube to assign the correct css properties
+	//use string values in cube to assign the correct css properties to the incoming square
 	switch(cube[index]){
 		case "Red":
 			$square.addClass("red");
@@ -174,7 +174,7 @@ var addSquare = function(index){
 
 var scrambleCube = function(){
 	//randomly execute 20 movements on the cube
-	//Why 20 movements? Well, why not?
+	//Why 20 movements? Well, why not? Increase or decrease as you see fit.
 	
 	console.log("scrambling the cube in 20 moves: ")
 
@@ -265,9 +265,6 @@ var unMove = function(){
 
 	switch(moves[moves.length-1]){
 			case 1: 
-				// setTimeout(function(){
-
-				// }, i*delay)
 				rot_XRightTop();
 				break;
 			case 2:
@@ -330,7 +327,7 @@ var unMove = function(){
 
 
 
-//Take a deep breath...
+//Take a deep breath... here comes a slog!
 
 //Rotation methods:
 		//For X:
