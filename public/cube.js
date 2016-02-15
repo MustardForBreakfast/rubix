@@ -13,8 +13,8 @@ var cube = ["Red","Red","Red","Red","Red","Red","Red","Red","Red",
 // 4) index 36 - 44:   						Ylw,Ylw,Ylw,Ylw,Ylw,Ylw,Ylw,Ylw,Ylw
 // 5) index 45 - 53:   						Org,Org,Org,Org,Org,Org,Org,Org,Org]
 
-//to add a sticker, set element#22 to value "sticker"
-//to remove a sticker, set element #22 to "Wht"
+//to add a sticker, set index#22 to value "sticker"
+//to remove a sticker, set index#22 to "Wht"
 
 
 //for backtracking/solving the cube
@@ -119,6 +119,7 @@ var clearSides = function(){
 
 var addSquare = function(index){
 	var $square = $('<div class="square" id='+index.toString()+'></div>');
+	//use string values in cube to assign the correct css properties
 	switch(cube[index]){
 		case "Red":
 			$square.addClass("red");
@@ -138,11 +139,12 @@ var addSquare = function(index){
 		case "Org":
 			$square.addClass("orange");
 			break;
+		//NOTE: change index#22 of cube from "Wht" to "sticker" to use this.
 		case "sticker":
 			$square.addClass("sticker")
 	}
 	
-	//use index to pick which side to put the square
+	//use the cube index# to determine which face of the cube to put the incoming square
 	if (index>=0 && index<9){
 			$("#side1").append($square);
 		}
@@ -244,17 +246,18 @@ var scrambleCube = function(){
 }
 
 var solveCube = function(){
+	//NOTE: Just a placeholder method for now. For V1.0, solveCube simply iterates backwards through the moves array 
+	//and unMoves for each value found. A real solve method (that does not rely on a move history) is in the works.
 
+	//uses setTimeout to make moves visible to the user
 	var movesCopy = moves.slice();
 	var delay = 100;
 
 	setTimeout(function(){
 		unMove();
-
 		if(moves.length>0){
 			solveCube();
 		}
-
 	}, delay);
 }
 
@@ -327,6 +330,7 @@ var unMove = function(){
 
 
 
+//Take a deep breath...
 
 //Rotation methods:
 		//For X:
