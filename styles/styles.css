@@ -1,0 +1,174 @@
+body {
+
+}
+
+.cubeContainer {
+  width: 827px;
+  height: 620px;
+  background-color: grey;
+  border: 1px solid black;
+  float: left;
+}
+
+.controlContainer {
+  width: 400px;
+  height: 620px;
+  background-color: lightgrey;
+  border:1px solid black;
+  padding-left: 10px;
+  /*display: inline-block;*/
+  float: left;
+}
+
+.controlTitle {
+  position: relative;
+  left: 130px;
+}
+
+.side {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  padding-left:2.5px;
+  padding-top:2.5px;
+  border-style: solid;
+  border-width: 2.5px;
+  border-color: black;
+  float: left;
+}
+
+#scramble {
+  position: relative;
+  left: 10px;
+  margin-bottom:30px;
+  cursor:pointer;
+}
+
+#solve {
+  position: relative;
+  left: 10px;
+  margin-bottom:30px;
+  cursor:pointer;
+}
+
+.controlPanel {
+  width: 330px;
+  height: 330px;
+  background-color: white;
+  padding-left:2.5px;
+  padding-top:2.5px;
+  border-style: solid;
+  border-width: 2.5px;
+  border-color: black;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.square {
+  width:64px;
+  height:64px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.controlCube{
+  width:60px;
+  height:60px;
+  display:inline-block;
+  background-color:black;
+  border: 1px solid black;
+  margin-bottom:3px;
+  margin-top:1px;
+}
+
+.activeCube{
+  background-color:grey;
+  cursor:pointer;
+
+}
+/*
+#YupLeft{
+  margin-left:4px;
+}*/
+.zbuttonContainer {
+  width:100%;
+}
+
+.Zbutton{
+/*  width:80px;
+  height:25px;*/
+  background-color:grey;
+  border: 1px solid black;
+  /*display:block;*/
+  cursor:pointer;
+  /*display: inline-block;*/
+  margin-right:1px;
+}
+
+.cw{
+  background-color:grey;
+  /*display: inline-block;*/
+  float: right;
+  margin-right: 5px;
+}
+
+#side1 {
+  position: relative;
+  left:207.5px;
+}
+
+#side2 {
+  clear: both;
+  float: left;
+  padding-left:2.5px;
+
+}
+
+#reference {
+
+}
+
+#side3 {
+
+}
+
+#side4 {
+
+}
+
+#side5 {
+  clear:both;
+  position:relative;
+  left:207.5px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.white {
+  background-color: white;
+/*  background-image: url("./oliver.jpg");
+  background-size: 63px 63px;*/
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.sticker {
+  background-image: url("http://www.sherv.net/cm/emo/funny/2/big-dancing-banana-smiley-emoticon.gif");
+  background-size: 63px 63px;
+}

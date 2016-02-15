@@ -1,0 +1,79 @@
+<html>
+<!-- dependencies -->
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="cube.js"></script>
+ <!-- // <script src="bower_components/bootstrap/dist/css/bootstrap.min.css"</script> -->
+
+  <head></head>
+  <body>
+    <!-- <h1>Here is le cube:</h1> -->
+
+    <div class="cubeContainer">
+
+      <div class="side" id="side1">
+      </div>
+
+      <div class="side" id="side2">
+      </div>
+
+      <div class="side" id="reference">
+      </div>
+
+      <div class="side" id="side3">
+      </div>
+
+      <div class="side" id="side4">
+      </div>
+
+      <div class="side" id="side5">
+      </div>
+
+    </div>
+    <div class="controlContainer">
+      <h1 class="controlTitle">Controls</h1>
+      <button id="scramble">Scramble Cube</button>
+      <button id="solve">Solve Cube</button>
+      <div class="ZbuttonContainer">
+        <button class="Zbutton" id="backCC">Back</button>
+        <button class="Zbutton cw" id="backCW">Back</button>
+        <button class="Zbutton" id="midCC">Center</button>
+        <button class="Zbutton cw" id="midCW">Center</button>
+        <button class="Zbutton" id="frontCC">Front</button>
+        <button class="Zbutton cw" id="frontCW">Front</button>
+      </div>
+      <div class="controlPanel">
+        <div class="controlCube"> x</div>
+        <div class="controlCube activeCube" id="YUpLeft">Up</div>
+        <div class="controlCube activeCube" id="YUpMid">Up</div>
+        <div class="controlCube activeCube" id="YUpRight">Up </div>
+        <div class="controlCube">x </div>
+        <div class="controlCube activeCube" id="XLeftTop">Left</div>
+        <div class="controlCube">x </div>
+        <div class="controlCube"> x</div>
+        <div class="controlCube">x </div>
+        <div class="controlCube activeCube" id="XRightTop">Right </div>
+        <div class="controlCube activeCube" id="XLeftMid">Left </div>
+        <div class="controlCube"> x</div>
+        <div class="controlCube">x </div>
+        <div class="controlCube"> x</div>
+        <div class="controlCube activeCube" id="XRightMid">Right </div>
+        <div class="controlCube activeCube" id="XLeftBot"> Left</div>
+        <div class="controlCube"> x</div>
+        <div class="controlCube">x </div>
+        <div class="controlCube"> x</div>
+        <div class="controlCube activeCube" id="XRightBot">Right </div>
+        <div class="controlCube"> x</div>
+        <div class="controlCube activeCube" id="YDownLeft">Down </div>
+        <div class="controlCube activeCube" id="YDownMid">Down </div>
+        <div class="controlCube activeCube" id="YDownRight">Down </div>
+        <div class="controlCube">x </div>
+
+      </div>
+      
+    </div>
+  </body>
+  <script>$(document).ready(function(){
+    init();
+  });</script>
+</html>
