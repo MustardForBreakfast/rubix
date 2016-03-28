@@ -12,6 +12,6 @@ A two-dimensional Javascript Rubik's Cube, complete with rudimentary solver.
  - Express.js
  - Plain ol' Javascript!
 
-## Future Plans
-  - Improved/cleaned up UX
+## Plans for the Future
+  - Improved UX
   - 3D rendering via D3.js
