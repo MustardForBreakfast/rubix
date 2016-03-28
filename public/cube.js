@@ -1,6 +1,6 @@
 
 
-var cube = ["Red","Red","Red","Red","Red","Red","Red","Red","Red",
+var cube = 		["Red","Red","Red","Red","Red","Red","Red","Red","Red",
 			"Blu","Blu","Blu","Blu","Blu","Blu","Blu","Blu","Blu",
 			"Wht","Wht","Wht","Wht","Wht","Wht","Wht","Wht","Wht",
 			"Grn","Grn","Grn","Grn","Grn","Grn","Grn","Grn","Grn",
@@ -8,7 +8,7 @@ var cube = ["Red","Red","Red","Red","Red","Red","Red","Red","Red",
 			"Org","Org","Org","Org","Org","Org","Org","Org","Org"];
 // 1) index 0 - 8:     						[Red,Red,Red,Red,Red,Red,Red,Red,Red,
 // 2) index 9 - 17:    						Blu,Blu,Blu,Blu,Blu,Blu,Blu,Blu,Blu,
-// reference) index 18 - 26:   				Wht,Wht,Wht,Wht,Wht,Wht,Wht,Wht,Wht,
+// reference) index 18 - 26:   					Wht,Wht,Wht,Wht,Wht,Wht,Wht,Wht,Wht,
 // 3) index 27 - 35:   						Grn,Grn,Grn,Grn,Grn,Grn,Grn,Grn,Grn
 // 4) index 36 - 44:   						Ylw,Ylw,Ylw,Ylw,Ylw,Ylw,Ylw,Ylw,Ylw
 // 5) index 45 - 53:   						Org,Org,Org,Org,Org,Org,Org,Org,Org]
