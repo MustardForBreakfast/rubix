@@ -1,4 +1,4 @@
-# rubix
+# Rubix
 A two-dimensional Javascript Rubik's Cube, complete with rudimentary solver.
 
 ## Getting Started
