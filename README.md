@@ -10,7 +10,7 @@ A two-dimensional Javascript Rubik's Cube, complete with rudimentary solver.
 
  - Node.js
  - Express.js
- - Plain ol' Javascript!
+ - JQuery
 
 ## Plans for the Future
   - Improved UX
