@@ -14,4 +14,5 @@ A two-dimensional Javascript Rubik's Cube, complete with rudimentary solver.
 
 ## Plans for the Future
   - Improved UX
+  - More sophisticated solver
   - 3D rendering via D3.js
