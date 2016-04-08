@@ -2,7 +2,8 @@
 A two-dimensional Javascript Rubik's Cube, complete with rudimentary solver. 
 
 Try it here: https://polar-thicket-78330.herokuapp.com/
-(for best results, use Chrome)
+
+(Use Chrome for best results)
 
 ## Getting Started
 
