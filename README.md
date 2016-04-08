@@ -16,6 +16,6 @@ Try it here: https://polar-thicket-78330.herokuapp.com/
 
 ## Plans for the Future
   - Improved UX
-  - Troubleshoot UI in other browsers (initially developed for Chrome)
+  - Cross-browser support (initially developed for Chrome)
   - A more advanced solver
   - 3D rendering via D3.js
