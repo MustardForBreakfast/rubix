@@ -1,7 +1,8 @@
 # Rubix
 A two-dimensional Javascript Rubik's Cube, complete with rudimentary solver. 
 
-Use it here: https://polar-thicket-78330.herokuapp.com/
+Try it here: https://polar-thicket-78330.herokuapp.com/
+(for best results, use Chrome)
 
 ## Getting Started
 
